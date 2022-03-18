@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="otpf.css" />
+  </head>
+
+  <body id="scbodyotp">
+    <div class="scmaindivotp">
+      <a
+        class="scbutotp"
+        href="homepage pe bhejna yaha se name dalke with sign in option wala"
+        >x</a
+      >
+
+      <h1>Sign up or Sign in</h1>
+      <p class="scpotp">
+        Enjoy the convinience of a single account across all participating
+        brands
+      </p>
+      <h3>Verify with OTP</h3>
+      <p class="scpotp">sent to +91xxxxxxxxxx</p>
+
+      <div class="scotpdiv">
+        <input
+          type="number"
+          id="ist"
+          maxlength="1"
+          onkeyup="whenclick(this,'sec')"
+        />
+        <input
+          type="number"
+          id="sec"
+          maxlength="1"
+          onkeyup="whenclick(this,'third')"
+        />
+        <input
+          type="number"
+          id="third"
+          maxlength="1"
+          onkeyup="whenclick(this,'fourth')"
+        />
+        <input
+          type="number"
+          id="fourth"
+          maxlength="1"
+          onkeyup="whenclick(this,'fifth')"
+        />
+        <input type="number" id="fifth" maxlength="1" />
+      </div>
+
+      <p class="scpotp">We've sent your code.</p>
+      <div class="sclineotp"></div>
+      <button id="scbutotp">Continue</button>
+    </div>
+  </body>
+</html>
+<script src="otpf.js"></script>

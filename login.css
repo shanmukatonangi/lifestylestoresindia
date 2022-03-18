@@ -1,0 +1,96 @@
+.scmaindiv {
+  width: 35%;
+  height: 450px;
+  margin: auto;
+  padding-left: 7%;
+  padding-right: 7%;
+
+  padding-top: 0%;
+  padding-bottom: 3%;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  margin-top: 7%;
+  background-color: white;
+}
+.scbut {
+  margin-left: 99%;
+  text-decoration: none;
+  color: black;
+}
+.scfb {
+  background-color: darkslateblue;
+  padding: 2%;
+  border-radius: 3px;
+  margin-bottom: 2%;
+}
+#spanfb {
+  color: white;
+}
+.scorvia {
+  display: flex;
+  color: darkgrey;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+.linedivs {
+  background-color: darkgrey;
+  height: 1.5px;
+  width: 33%;
+  margin-top: 10px;
+  margin-bottom: 2%;
+}
+#email {
+  width: 98%;
+  border: 1px solid silver;
+  padding: 5px;
+  font-size: 14px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  border-radius: 2px;
+  height: 40px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+#pass {
+  width: 98%;
+  border: 1px solid silver;
+  padding: 5px;
+  font-size: 14px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  border-radius: 2px;
+  height: 40px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+#mgleft {
+  text-align: left;
+  font-weight: bolder;
+}
+#sccenter {
+  text-align: center;
+}
+#sccenter1 {
+  text-align: center;
+  color: darkgrey;
+}
+.signinbutton {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  height: 50px;
+  margin-top: 2%;
+  border: none;
+  background-color: orange;
+  color: white;
+}
+
+.sctandc {
+  text-decoration: none;
+  color: orange;
+}
+#scbody {
+  background-color: whitesmoke;
+}

@@ -1,0 +1,470 @@
+#ssclife {
+  width: 90%;
+  margin: auto;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+#sscsymbol {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  width: fit-content;
+  height: fit-content;
+  padding: 1%;
+  display: inline-block;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+#ssctop {
+  display: inline-flex;
+
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+#ssccall {
+  display: inline-block;
+
+  margin-top: -5.6%;
+  height: 90%;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+.pclass {
+  font-size: 14px;
+  color: #72818d;
+}
+.pclass1 {
+  font-size: 11px;
+  color: #72818d;
+}
+.checkout {
+  width: 100%;
+  height: 1000px;
+  /* border: 1px solid; */
+  /* margin: auto; */
+
+  font-family: sans-serif;
+  /* padding: 10px; */
+  display: flex;
+  gap: 10px;
+}
+.checkout .left {
+  width: 100%;
+
+  /* border: 1px solid; */
+}
+
+.checkout .right .text {
+  border: 1px solid springgreen;
+  height: 100px;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.checkout .left h2 {
+  /* border: 1px solid; */
+  padding-bottom: 15px;
+}
+.checkout .left .shippingMthd {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.checkout .left .shippingMthd > div {
+  height: 80px;
+  /* border: 1px solid; */
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid gold;
+  transition: 0.2s;
+}
+.checkout .left .shippingMthd > div:hover {
+  border: 2px solid grey;
+  transition: 0.2s;
+}
+.checkout .left .shippingMthd > div span {
+  font-size: 14px;
+  color: rgb(109, 106, 106);
+}
+.checkout .left .shippingMthd > div .heading {
+  font-weight: bolder;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 8px;
+}
+.checkout .left .shippingAdd {
+  /* border: 1px solid; */
+  margin-top: 20px;
+  height: 90%;
+  width: 550px;
+}
+
+.checkout .left .shippingAdd label {
+  font-weight: 600;
+  font-size: 12.5px;
+}
+.checkout .left .shippingAdd .input,
+.checkout .left .shippingAdd .input .phoneno {
+  width: 100%;
+  margin-top: 5px;
+  height: 40px;
+  border: 1px solid rgba(209, 203, 203, 0.911);
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.checkout .left .shippingAdd .numberBox {
+  display: flex;
+  padding: 0;
+  width: 102%;
+}
+.checkout .left .shippingAdd .numberBox span {
+  display: flex;
+  width: 50px;
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 216, 216, 0.507);
+}
+.checkout .left .shippingAdd .input .phoneno {
+  position: relative;
+  bottom: 5px;
+  outline: none;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.checkout .left .shippingAdd .address {
+  border: 1px solid;
+}
+
+/* .radio input[type="radio"] {
+  background: red;
+} */
+/* .radio {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+} */
+.Addrress {
+  display: flex;
+  gap: 20px;
+  /* border: 1px solid red; */
+}
+.costomRadio {
+  /* border: 1px solid; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.costomRadio .cusRadioB {
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 15px;
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1px; */
+  width: 15px;
+}
+.costomRadio .cusRadioB .dot1,
+.costomRadio .cusRadioB .dot3 {
+  /* border: 1px solid; */
+  border-radius: 50%;
+  visibility: hidden;
+
+  height: 8px;
+  width: 8px;
+  background-color: gold;
+}
+.costomRadio .cusRadioB .dot2,
+.costomRadio .cusRadioB .dot4 {
+  border-radius: 50%;
+  /* visibility: hidden; */
+  /* display: none; */
+  height: 8px;
+  width: 8px;
+  background-color: gold;
+}
+
+.logo img {
+  left: 46 px;
+  top: 19 px;
+  /* float: ; */
+  max-width: 50 px;
+  max-height: 30 px;
+  /* border: 1px solid salmon; */
+  /* margin-left: 10%; */
+  /* margin-bottom: 30%; */
+  justify-content: space-evenly;
+}
+.logo .card {
+  margin-left: 20px;
+  position: absolute;
+  float: right;
+}
+.creditCard {
+  display: flex;
+  gap: 20px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.payment .cardDetail {
+  /* border: 1px solid; */
+  width: 50%;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+/* .payment .cardChoice {
+  border: 1px solid;
+} */
+.payment .cardChoice .cardNumber {
+  width: 30%;
+  height: 200px;
+}
+.cardNumber {
+  width: 50%;
+  border: 1px solid;
+  margin-right: 80px;
+  font-size: 15px;
+}
+#cvv {
+  width: 32%;
+  margin-left: 15px;
+}
+hr {
+  visibility: hidden;
+}
+.btn {
+  width: 30%;
+  /* height: 20px; */
+  float: right;
+  background-color: orange;
+  font-size: 20px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.terms-Cond {
+  /* border: 1px solid salmon; */
+  display: flex;
+  width: 900px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: grey;
+  font-size: 15px;
+  margin-left: 20px;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+}
+p {
+  text-align: justify;
+  justify-items: center;
+  margin-left: 20px;
+  /* border: 1px solid; */
+}
+span {
+  font-family: sans-serif;
+  /* border: 1px solid red; */
+}
+#month1 {
+  width: 70px;
+}
+.card {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+#state {
+  /* border: 1px solid red; */
+  width: 565px;
+  height: 40px;
+  margin-bottom: 10x;
+  font-size: 14px;
+  color: rgb(109, 106, 106);
+  border: 1px solid rgba(209, 203, 203, 0.911);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.stateType {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+}
+/* ----------------------nikhil---------------- */
+#checkOutMain {
+  width: 100%;
+  height: 450px;
+  overflow: scroll;
+}
+
+#orsum {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#vDiv {
+  display: flex;
+}
+
+#divImgN {
+  width: 130px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+#vImg {
+  width: 100%;
+  height: 100%;
+}
+
+#pDivN {
+  width: 80%;
+  height: 100px;
+  margin-left: 20px;
+}
+
+#pDivN2 {
+  display: flex;
+  height: 32px;
+  margin-top: 90px;
+}
+
+#myPara3 {
+  margin-top: 17px;
+}
+
+#masaiN {
+  width: 100%;
+  height: 150px;
+}
+
+#part1 {
+  display: flex;
+}
+
+#masaiN2 {
+  width: 50%;
+  height: 50px;
+  color: #3d464d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#nikAmt {
+  width: 50%;
+  height: 50px;
+  text-align: end;
+  color: #3d464d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#part2 {
+  display: flex;
+  width: 100%;
+}
+
+#std {
+  width: 50%;
+}
+
+#freeN {
+  text-align: end;
+  width: 50%;
+}
+
+#vnTotal {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#border1 {
+  border: 1px solid grey;
+  width: 100%;
+}
+
+#logoPay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+  width: 100%;
+}
+
+#logoPay > div {
+  width: 30%;
+  margin-left: 4px;
+}
+
+#logoPay > div > img {
+  width: 60%;
+  height: 100%;
+}
+
+#std {
+  color: #3d464d;
+  font-size: 16px;
+  font-family: "ProximaNova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#freeN {
+  color: #3d464d;
+  font-size: 16px;
+  font-family: "ProximaNova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#vnTotal {
+  color: #3d464d;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "ProximaNova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#ways {
+  color: #3d464d;
+  font-size: 20px;
+  font-family: "ProximaNova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 0px;
+}
+
+#vibh {
+  display: flex;
+  height: 50px;
+}
+/* for upper box address */
+#checkoutPun {
+  display: flex;
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 84%;
+  margin: auto;
+  /* margin-left: 60px; */
+}
+#punam {
+  width: 60%;
+  /* border: 1px solid blue; */
+  margin-right: 200px;
+}
+#nikhil {
+  /* display: inline-block; */
+  /* border: 1px solid salmon; */
+  width: 30%;
+  /*  */
+}
+/* for select payment box */
+.payment {
+  width: 65%;
+  /* border: 1px solid salmon; */
+  margin-left: 118px;
+}
