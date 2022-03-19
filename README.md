@@ -1,3 +1,4 @@
 # lifestylestoresindia
-An e-commerce website for clothing.
-<a href="https://shanmukatonangi.github.io/lifestylestoresindia/">have a look<a/>
+
+<img src="https://tse2.mm.bing.net/th?id=OIP.nonrEuEKi8LblGjf8iK-aQHaC1&pid=Api&P=0&w=475&h=181">
+<a href="https://shanmukatonangi.github.io/lifestylestoresindia/">CLICK HERE<a/>
